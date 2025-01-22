@@ -115,3 +115,6 @@ Add the necessary firewall rules to block the ongoing attack.
 What is the flag that you have received after successfully stopping the attack?
 Answer format: ***{**************}
 
+To stop flag you need to stop the simulated DoS attack by creating a firewall rule that drops the IP address spam requests on port 80.
+This prevents the requests from going through and successfully stops the threat actor revealing the flag.
+
