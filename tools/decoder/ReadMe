@@ -1,0 +1,27 @@
+# 🔓 Full CTF Decoder v0.0.1
+
+This is a modular Python-based decryption utility for Capture The Flag (CTF) challenges. It performs heuristic and brute-force decoding on unknown text inputs using common encodings and classical ciphers.
+
+---
+
+## 🚀 Features
+
+- 🔁 Caesar/ROT brute-force (ROT1–ROT25)
+- 🔄 ROT13 decoder
+- 🔃 Atbash cipher support
+- 📡 Morse code decoding
+- 🧮 Binary → ASCII
+- 🔢 Hexadecimal decoder
+- 🧬 Base64 decoder
+- 📖 ASCII numeric stream decoder
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourname/full-ctf-decoder.git
+cd full-ctf-decoder
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt  # (none required yet)
