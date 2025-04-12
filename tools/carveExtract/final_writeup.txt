@@ -1,0 +1,57 @@
+
+# Forensics Challenge Write-Up: "Oops (Medium)"
+
+## Challenge Description
+We received a disk image from a seized device believed to belong to a Liber8tion agent. The goal was to recover deleted sensitive files and uncover any hidden flag.
+
+---
+
+## Tools & Techniques Used
+- **Python** (for scripting)
+- **String extraction** from binary image
+- **Manual PNG file carving** using known binary signatures
+- **OCR** (Optical Character Recognition)
+- **Base64 detection**
+- **(Optional) Steganography tools**
+
+---
+
+## Steps Taken
+
+### 🧵 Step 1: String Extraction
+We scanned the raw disk image for human-readable strings and looked for likely filenames using common extensions.  
+✅ **Filename Found**: `super_secret_flag5834.png`
+
+### 🧠 Step 2: PNG File Carving
+Using the PNG magic bytes:
+- **Header**: `89 50 4E 47 0D 0A 1A 0A`
+- **Footer**: `49 45 4E 44 AE 42 60 82`
+
+We extracted and saved the binary block matching those markers from the image.
+
+✅ **Recovered File**: `super_secret_flag5834.png`
+
+### 👁️ Step 3: OCR Analysis
+We scanned the image using Tesseract OCR and found clear text:
+
+✅ **Flag Found**: `SKY-UNDL-3373`
+
+### 🔍 Step 4: Base64 & Stego Check
+We scanned both OCR text and image binary for base64 strings — none were found.  
+Steganographic analysis using LSB tools (like `stegano`) was planned, but not available in this environment.
+
+---
+
+## Final Answers
+
+- **Q1 - Deleted Filename**: `super_secret_flag5834.png`
+- **Q2 - Flag in Hidden File**: `SKY-UNDL-3373`
+
+---
+
+## Included Files
+
+- `writeup.txt` – This write-up.
+- `extract_strings.py` – Extracts readable ASCII strings.
+- `carve_png.py` – Extracts PNG files by header/footer.
+- `recovered_super_secret_flag5834.png` – Recovered image with flag.
