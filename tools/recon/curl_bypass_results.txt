@@ -1,0 +1,220 @@
+
+--- Testing X-Forwarded-For: 127.0.0.1 ---
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css"/>
+    <title>Cyber Skyline</title>
+    <style>
+      .fw300 {
+        font-weight: 400 !important;
+      }
+      .fw400 {
+        font-weight: 600 !important;
+      }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.3),
+      only screen and (-o-min-device-pixel-ratio: 13/10),
+      only screen and (min-resolution: 120dpi) {
+        .fw300 {
+          font-weight: 300 !important;
+        }
+        .fw400 {
+          font-weight: 400 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: table; height: 100%; width: 100%; padding-top: 16px">
+      <div style="display: table-row">
+        <div style="display: table-cell; vertical-align: middle">
+          <div class="ui container" style="margin-bottom: 15%">
+            <a href="https://cyberskyline.com"><img src="https://cyberskyline.com/static/img/logo/cyberskyline.svg" height="40px"/></a>
+            <div class="ui divider"></div>
+            <h1 class="ui header fw300" style="margin-top: 14px; font-size: 25pt"><span>Not Found | 404</span>
+              <div class="sub header fw300" style="font-size: 15pt">The resource you requested could not be located</div>
+            </h1><br/>
+            <p class="fw300" style="font-size:12pt">Please check your URL again.</p>
+            <div class="ui divider"></div>
+            <div class="fw300" style="color: #CCCCCC; font-size: 12px">&copy; <span id="year">2017</span> Cyber Skyline</div>
+            <script>
+              var year = (new Date()).getFullYear();
+              var docYear = document.getElementById('year');
+              if (Number(docYear.innerText) < Number(year)) {
+                docYear.innerText = document.createTextNode(year).textContent;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+--- Testing X-Admin: true ---
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css"/>
+    <title>Cyber Skyline</title>
+    <style>
+      .fw300 {
+        font-weight: 400 !important;
+      }
+      .fw400 {
+        font-weight: 600 !important;
+      }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.3),
+      only screen and (-o-min-device-pixel-ratio: 13/10),
+      only screen and (min-resolution: 120dpi) {
+        .fw300 {
+          font-weight: 300 !important;
+        }
+        .fw400 {
+          font-weight: 400 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: table; height: 100%; width: 100%; padding-top: 16px">
+      <div style="display: table-row">
+        <div style="display: table-cell; vertical-align: middle">
+          <div class="ui container" style="margin-bottom: 15%">
+            <a href="https://cyberskyline.com"><img src="https://cyberskyline.com/static/img/logo/cyberskyline.svg" height="40px"/></a>
+            <div class="ui divider"></div>
+            <h1 class="ui header fw300" style="margin-top: 14px; font-size: 25pt"><span>Not Found | 404</span>
+              <div class="sub header fw300" style="font-size: 15pt">The resource you requested could not be located</div>
+            </h1><br/>
+            <p class="fw300" style="font-size:12pt">Please check your URL again.</p>
+            <div class="ui divider"></div>
+            <div class="fw300" style="color: #CCCCCC; font-size: 12px">&copy; <span id="year">2017</span> Cyber Skyline</div>
+            <script>
+              var year = (new Date()).getFullYear();
+              var docYear = document.getElementById('year');
+              if (Number(docYear.innerText) < Number(year)) {
+                docYear.innerText = document.createTextNode(year).textContent;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+--- Testing X-Original-URL: /admin ---
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css"/>
+    <title>Cyber Skyline</title>
+    <style>
+      .fw300 {
+        font-weight: 400 !important;
+      }
+      .fw400 {
+        font-weight: 600 !important;
+      }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.3),
+      only screen and (-o-min-device-pixel-ratio: 13/10),
+      only screen and (min-resolution: 120dpi) {
+        .fw300 {
+          font-weight: 300 !important;
+        }
+        .fw400 {
+          font-weight: 400 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: table; height: 100%; width: 100%; padding-top: 16px">
+      <div style="display: table-row">
+        <div style="display: table-cell; vertical-align: middle">
+          <div class="ui container" style="margin-bottom: 15%">
+            <a href="https://cyberskyline.com"><img src="https://cyberskyline.com/static/img/logo/cyberskyline.svg" height="40px"/></a>
+            <div class="ui divider"></div>
+            <h1 class="ui header fw300" style="margin-top: 14px; font-size: 25pt"><span>Not Found | 404</span>
+              <div class="sub header fw300" style="font-size: 15pt">The resource you requested could not be located</div>
+            </h1><br/>
+            <p class="fw300" style="font-size:12pt">Please check your URL again.</p>
+            <div class="ui divider"></div>
+            <div class="fw300" style="color: #CCCCCC; font-size: 12px">&copy; <span id="year">2017</span> Cyber Skyline</div>
+            <script>
+              var year = (new Date()).getFullYear();
+              var docYear = document.getElementById('year');
+              if (Number(docYear.innerText) < Number(year)) {
+                docYear.innerText = document.createTextNode(year).textContent;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+--- Testing X-Custom-IP-Authorization: 127.0.0.1 ---
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css"/>
+    <title>Cyber Skyline</title>
+    <style>
+      .fw300 {
+        font-weight: 400 !important;
+      }
+      .fw400 {
+        font-weight: 600 !important;
+      }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 1.3),
+      only screen and (-o-min-device-pixel-ratio: 13/10),
+      only screen and (min-resolution: 120dpi) {
+        .fw300 {
+          font-weight: 300 !important;
+        }
+        .fw400 {
+          font-weight: 400 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: table; height: 100%; width: 100%; padding-top: 16px">
+      <div style="display: table-row">
+        <div style="display: table-cell; vertical-align: middle">
+          <div class="ui container" style="margin-bottom: 15%">
+            <a href="https://cyberskyline.com"><img src="https://cyberskyline.com/static/img/logo/cyberskyline.svg" height="40px"/></a>
+            <div class="ui divider"></div>
+            <h1 class="ui header fw300" style="margin-top: 14px; font-size: 25pt"><span>Not Found | 404</span>
+              <div class="sub header fw300" style="font-size: 15pt">The resource you requested could not be located</div>
+            </h1><br/>
+            <p class="fw300" style="font-size:12pt">Please check your URL again.</p>
+            <div class="ui divider"></div>
+            <div class="fw300" style="color: #CCCCCC; font-size: 12px">&copy; <span id="year">2017</span> Cyber Skyline</div>
+            <script>
+              var year = (new Date()).getFullYear();
+              var docYear = document.getElementById('year');
+              if (Number(docYear.innerText) < Number(year)) {
+                docYear.innerText = document.createTextNode(year).textContent;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

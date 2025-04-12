@@ -1,0 +1,17 @@
+# Nmap 7.94SVN scan initiated Fri Apr 11 23:14:16 2025 as: nmap -p 80,443,3000,3001,8000,8080,8443 -sV -Pn -oN recon_liber8login.web.cityinthe.cloud_2025-04-11_23-13-39/nmap_webports.txt liber8login.web.cityinthe.cloud
+Nmap scan report for liber8login.web.cityinthe.cloud (3.210.217.19)
+Host is up (0.083s latency).
+Other addresses for liber8login.web.cityinthe.cloud (not scanned): 3.231.182.208 3.215.64.75
+rDNS record for 3.210.217.19: ec2-3-210-217-19.compute-1.amazonaws.com
+
+PORT     STATE    SERVICE    VERSION
+80/tcp   open     http       nginx
+443/tcp  open     ssl/http   nginx
+3000/tcp filtered ppp
+3001/tcp filtered nessus
+8000/tcp filtered http-alt
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Apr 11 23:14:33 2025 -- 1 IP address (1 host up) scanned in 17.11 seconds
