@@ -292,7 +292,7 @@ Time difference on startup : none
 2024-09-22 21:18:37  HTTPS connection, method: GET, URL: https://10.10.64.16/second_payload.ps1, file name: /var/lib/inetsim/http/fakefiles/sample.html
 2024-09-22 21:18:49  HTTPS connection, method: GET, URL: https://10.10.64.16/second_payload.zip, file name: /var/lib/inetsim/http/fakefiles/sample.html
 2024-09-22 21:18:49  Last simulated date in log file
-===
+
 These are the logs when the tool was running. We can see the connections made to the URL, the protocol, and the method it's using.
 We can also see the fake file that was downloaded.
 
