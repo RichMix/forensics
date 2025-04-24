@@ -160,12 +160,14 @@ Decimal	Binary	Symbol	-	Decimal	Binary	Symbol
 76	01001100	L		89	01011001	Y
 77	01001101	M		90	01011010	Z
 
-Step 1: Convert To Binary and Merge(Manually)
+## Step 1: 
+Convert To Binary and Merge(Manually)
 Based on our table above, T = 01010100, H=01001000, M = 01001101. 
 
 Next, concatenate these binaries and make sure they have 24 characters. You should have 010101000100100001001101
 
-Step 2: Divide and Convert to Decimal(Manually)
+## Step 2: 
+Divide and Convert to Decimal(Manually)
 
 Separate 010101000100100001001101 into 6 characters each. You should have 010101 000100 100001 001101. 
 These are 6-bit characters; we should have four instances of this now. 
@@ -177,7 +179,8 @@ Binary	Decimal (Base10)
 100001	33
 001101	13
 
-Step 3: Convert to Base64 (Manually)
+## Step 3: 
+Convert to Base64 (Manually)
 Now that we have the Numbers from the previous step, which are 21, 4, 33, and 13, let's look for the equivalent characters from our table below. 
 This table represents a base64 index table.
 
