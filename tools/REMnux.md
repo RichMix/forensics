@@ -172,15 +172,15 @@ Next, we need to change the INetSim configuration by running this command sudo n
 Terminal
 ubuntu@10.10.64.16:~$ sudo nano /etc/inetsim/inetsim.conf
 #########################################
-# dns_default_ip
-#
-# Default IP address to return with DNS replies
-#
-# Syntax: dns_default_ip 
-#
-# Default: 127.0.0.1
-#
-#dns_default_ip  0.0.0.0
+/# dns_default_ip
+/#
+/# Default IP address to return with DNS replies
+/#
+/# Syntax: dns_default_ip 
+/#
+/# Default: 127.0.0.1
+/#
+/#dns_default_ip  0.0.0.0
 Remove the comment or #, then change the value of dns_default_ip from 0.0.0.0 to the machine’s IP address you have identified earlier. In our case, this is 10.10.64.16. 
 Save the file using CRTL + O command, press enter and exit using CTRL + X.
 
@@ -189,8 +189,8 @@ See below.
 
 Terminal
 ubuntu@10.10.64.16:~$ cat /etc/inetsim/inetsim.conf | grep dns_default_ip
-# dns_default_ip
-# Syntax: dns_default_ip 
+/# dns_default_ip
+/# Syntax: dns_default_ip 
 dns_default_ip	 10.10.64.16
 
 Finally, run the command sudo inetsim to start the tool.
